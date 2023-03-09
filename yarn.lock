@@ -80,6 +80,11 @@ arg@^5.0.2:
   resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.2.tgz#c81433cc427c92c4dcf4865142dbca6f15acd59c"
   integrity sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==
 
+atropos@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/atropos/-/atropos-1.0.2.tgz#161093152a56787ea8431487196838a854000167"
+  integrity sha512-0RqyHfMyIhRXgnHuSQz2LVOE81jtAQ7EZTrF75ngiipklIsxajZ2vD042EXdiIEDs6eEAzfE10k+YhIbNl4/eg==
+
 autoprefixer@^10.4.8:
   version "10.4.8"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.8.tgz#92c7a0199e1cfb2ad5d9427bd585a3d75895b9e5"
@@ -535,22 +540,10 @@ object-hash@^3.0.0:
   resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-3.0.0.tgz#73f97f753e7baffc0e2cc9d6e079079744ac82e9"
   integrity sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==
 
-page.js@^4.13.3:
-  version "4.13.3"
-  resolved "https://registry.yarnpkg.com/page.js/-/page.js-4.13.3.tgz#d5f7febedd15ac851ad18d3e4ff45d54c320276e"
-  integrity sha512-43Qxp+DihGW4OK1tGmyP2WQONsOf9Ews0wxbxSq0Cq8hCDxF2bZ4GR86DN1Klv8oRJrY0hQjDuM1tBXC3BRjyg==
-  dependencies:
-    path-to-regexp "0.1.7"
-
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
   integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
-
-path-to-regexp@0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
-  integrity sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==
 
 picocolors@^1.0.0:
   version "1.0.0"
