@@ -1,10 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/*.{svelte,js,ts,html}",
-    "./src/components/*.svelte"
-  ],
+  content: ["./index.html", "./src/*.{svelte,js,ts,html}", "./src/**/*.svelte"],
   theme: {
     extend: {
       backgroundImage: {
