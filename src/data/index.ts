@@ -1,10 +1,4 @@
-interface Podcast {
-  name: string
-  host: string
-  platform: string
-  category: string
-  timesListened: number
-}
+import type { Podcast } from "../types"
 
 export const PodcastList: Podcast[] = [
   {

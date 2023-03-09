@@ -63,13 +63,15 @@
     <User />
   </div>
   
-  <main class="flex gap-6">
-    <nav class="hidden gap-16 sm:flex w-1/5 pl-4 h-screen flex-col">
+  <main class="flex gap-6 px-3">
+    <nav class="hidden gap-16 sm:flex w-1/5 pl-4 h-screen flex-col py-5">
       <SideNav __class="w-full" items={firstListTexts} />
       <SideNav __class="w-full" items={secondListTexts} />
     </nav>
   
-      <Router {routes} />
+      <section class="overflow-x-auto py-5 w-full">
+        <Router {routes} />
+      </section>
   </main>
   
 </main>
